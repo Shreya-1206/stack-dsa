@@ -4,27 +4,19 @@ class Stack{
     }
 
     push(val){
-        this.stack.push(val);
+       return this.stack.push(val);
     }
 
     pop(){
-        if (this.stack.length > 0){
-            return this.stack.pop();
-        }else{
-            throw "Stack Underflow";
-        }
+        return this.stack.pop()
     }
 
     peek(){
-        if (this.stack.length > 0){
-            return this.stack[this.stack.length - 1];
-        }else{
-            throw "Stack Underflow";
-        }  
+        return this.stack[this.stack.length - 1];
     }
 
     isEmpty(){
-        return this.stack.length == 0;
+        return this.stack.length === 0;
     }
 
     size(){
@@ -32,9 +24,10 @@ class Stack{
     }
 
     print(){
-        console.log(this.stack);
+        console.log(this.stack.length)
     }
 }
+
 
 function greaterNumAhead(arr){
     let s = new Stack;
