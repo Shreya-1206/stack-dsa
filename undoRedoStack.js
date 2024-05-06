@@ -37,3 +37,15 @@ function incrementNum() {
   counter++;
   document.getElementById('val').value = counter;
 }
+
+function undo(){
+    redoStack.push(counter);
+    counter = undoStack.pop()
+    document.getElementById('val').value = counter;
+}
+
+function redo(){
+    undoStack.push(counter);
+    counter = redoStack.pop()
+    document.getElementById('val').value = counter;
+}
