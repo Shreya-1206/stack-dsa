@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="undo-redo">
-        <button class="increment">Increment</button>
-        <button class="undo">Undo</button>
+        <button class="increment" onclick="incrementNum()">Increment</button>
+        <button class="undo" onclick="un">Undo</button>
         <button class="redo">Redo</button>
-        <input type="text" value="0">
+        <input type="text" value="0" id="val">
     </div>
-    <script src="reverseArr.js"></script>
+    <script src="undoRedoStack.js"></script>
 </body>
 </html>
