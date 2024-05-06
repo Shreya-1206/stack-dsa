@@ -1,0 +1,48 @@
+.undo-redo{
+    width: 400px;
+    height: 70px;
+    margin-top: 50px;
+    margin-right: 200px;
+    border: 2px solid #FF7396;
+    border-radius: 5px;
+    background-color: #FF7396;
+}
+
+.increment{
+    padding: 8px 4px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: #F4E06D;
+    border: #F4E06D;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.undo{
+    padding: 8px 4px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: #F4E06D;
+    border: #F4E06D;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.redo{
+    padding: 8px 4px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: #F4E06D;
+    border: #F4E06D;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input{
+    padding: 10px 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    border: #C499BA;
+    background-color: #C499BA;
+    border-radius: 2px;
+    color: white;
+}
